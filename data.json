@@ -1,5 +1,23 @@
 [
   {
+    "place": "Padaria Soares & CO.",
+    "website": "https://instagram.com/soares_co/",
+    "accepts_edenred": false,
+    "last_update": "2023-12-16"
+  },
+  {
+    "place": "Pão do Beco",
+    "website": "https://www.instagram.com/dobeco_padaria/",
+    "accepts_edenred": false,
+    "last_update": "2023-12-16"
+  },
+  {
+    "place": "Geladaria Cottinelli",
+    "website": "https://www.instagram.com/geladariacottinelli/",
+    "accepts_edenred": false,
+    "last_update": "2023-12-16"
+  },
+  {
     "place": "Hachi の Kare-ya! - Alameda",
     "website": "https://www.instagram.com/kareya8lx/",
     "accepts_edenred": true,
