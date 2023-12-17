@@ -1,5 +1,23 @@
 [
   {
+    "place": "Pastelaria Riviera",
+    "website": "https://www.facebook.com/profile.php?id=100046407105959",
+    "accepts_edenred": true,
+    "last_update": "2023-12-10"
+  },
+  {
+    "place": "O Nosso Franguinho",
+    "website": "https://www.facebook.com/nossofranguinho",
+    "accepts_edenred": true,
+    "last_update": "2023-12-10"
+  },
+  {
+    "place": "Liberty American Store - Lisboa",
+    "website": "https://www.lojasliberty.com/",
+    "accepts_edenred": true,
+    "last_update": "2023-12-15"
+  },
+  {
     "place": "Padaria Soares & CO.",
     "website": "https://instagram.com/soares_co/",
     "accepts_edenred": false,
