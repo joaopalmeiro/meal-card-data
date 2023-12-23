@@ -58,5 +58,17 @@
     "website": "https://www.flavers.pt/",
     "accepts_edenred": true,
     "last_update": "2023-12-21"
+  },
+  {
+    "place": "Mara Cakes - Campo Grande",
+    "website": "https://www.instagram.com/maracakes.portugal/",
+    "accepts_edenred": false,
+    "last_update": "2023-12-22"
+  },
+  {
+    "place": "Normal - Lisboa, Entrecampos",
+    "website": "https://www.normal.pt/",
+    "accepts_edenred": false,
+    "last_update": "2023-12-22"
   }
 ]
