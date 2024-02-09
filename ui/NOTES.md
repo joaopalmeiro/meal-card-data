@@ -15,6 +15,11 @@
 - https://github.com/BuilderIO/qwik/blob/v1.4.4/packages/qwik/src/optimizer/src/plugins/vite.ts#L905
 - https://qwik.dev/docs/guides/react-cheat-sheet/
 - https://github.com/BuilderIO/qwik/tree/v1.4.4/starters/adapters/static/adapters/static
+- https://qwik.dev/docs/getting-started/: "(...) resumable (no eager JS execution and no hydration) (...)"
+- https://qwik.dev/docs/project-structure/
+- https://github.com/genie-design/qwikbits
+- https://github.com/gilf/qwik-d3
+- https://qwik.dev/docs/advanced/qwikloader/
 
 ## [Qwik tutorial](https://qwik.dev/tutorial/welcome/overview/)
 
@@ -67,4 +72,10 @@ export async function getRepositories(
     ? json.map((repo: { name: string }) => repo.name)
     : Promise.reject(json);
 }
+```
+
+## Commands
+
+```bash
+npm create qwik@latest
 ```
