@@ -24,6 +24,20 @@
 
 ## [Qwik tutorial](https://qwik.dev/tutorial/welcome/overview/)
 
+### Done
+
+- https://qwik.dev/tutorial/welcome/overview/
+- https://qwik.dev/tutorial/introduction/component/
+- https://qwik.dev/tutorial/introduction/store/
+- https://qwik.dev/tutorial/introduction/listeners/
+- https://qwik.dev/tutorial/introduction/resource/
+- https://qwik.dev/tutorial/component/basic/
+- https://qwik.dev/tutorial/component/binding/
+- https://qwik.dev/tutorial/component/composition/
+- https://qwik.dev/tutorial/component/lite/
+
+### Notes
+
 - https://github.com/BuilderIO/qwik/tree/main/packages/docs/src/routes/tutorial
 - Component: `import { component$ } from '@builder.io/qwik'; export default component$(() => { return <p>Hello World</p>; });`
 - "Use `useStore()` to store the state of the component."
@@ -74,6 +88,18 @@ export async function getRepositories(
     : Promise.reject(json);
 }
 ```
+
+## [Qwik Crash Course](https://youtube.com/playlist?list=PL4cUxeGkcC9gOUlY-uCHurFIpqogsdOnw&feature=shared) by Net Ninja
+
+### Done
+
+- https://youtu.be/W0xjcx4mrkE?feature=shared
+
+### Notes
+
+- "(...) Astro partial hydration which is a more component-level hydration rather than full page hydration."
+  - https://docs.astro.build/en/concepts/islands/
+- "This approach is called Resumability because the application essentially resumes in the browser where it left off in the server. There's no need to run any more initial JavaScript."
 
 ## Commands
 
