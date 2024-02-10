@@ -20,6 +20,7 @@
 - https://github.com/genie-design/qwikbits
 - https://github.com/gilf/qwik-d3
 - https://qwik.dev/docs/advanced/qwikloader/
+- https://www.coverflex.com/en-pt/meal
 
 ## [Qwik tutorial](https://qwik.dev/tutorial/welcome/overview/)
 
@@ -78,4 +79,24 @@ export async function getRepositories(
 
 ```bash
 npm create qwik@latest
+```
+
+```bash
+npm create vite@latest qwik-ts -- --template qwik-ts
+```
+
+```bash
+npm run qwik add static
+```
+
+```bash
+npx qwik add static
+```
+
+```bash
+npm install @builder.io/qwik && npm install -D typescript vite
+```
+
+```bash
+rm -rf node_modules/ && npm install
 ```
