@@ -94,12 +94,14 @@ export async function getRepositories(
 ### Done
 
 - https://youtu.be/W0xjcx4mrkE?feature=shared
+- https://youtu.be/bwBJeUBZaQU?feature=shared
 
 ### Notes
 
 - "(...) Astro partial hydration which is a more component-level hydration rather than full page hydration."
   - https://docs.astro.build/en/concepts/islands/
 - "This approach is called Resumability because the application essentially resumes in the browser where it left off in the server. There's no need to run any more initial JavaScript."
+- https://github.com/iamshaunjp/Qwik-Crash-Course-1st-Look
 
 ## Commands
 
