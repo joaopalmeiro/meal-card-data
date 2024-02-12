@@ -1,6 +1,7 @@
 # Notes
 
 - https://qwik.dev/docs/deployments/static/
+- https://qwik.dev/docs/guides/static-site-generation/#dynamic-ssg-routes
 - https://qwikui.com/
 - https://github.com/qwikifiers/qwik-style-guide:
   - Use kebab-case for filenames.
@@ -21,6 +22,28 @@
 - https://github.com/gilf/qwik-d3
 - https://qwik.dev/docs/advanced/qwikloader/
 - https://www.coverflex.com/en-pt/meal
+- https://github.com/BuilderIO/qwik/tree/main/packages/eslint-plugin-qwik
+- https://qwik.dev/docs/advanced/eslint/
+- https://github.com/aleclarson/vite-tsconfig-paths
+- https://vitejs.dev/guide/env-and-mode#modes
+- https://kinsta.com/docs/static-site-hosting/static-site-quick-start/qwik-static-site-example
+- https://github.com/kinsta/hello-world-qwik
+- https://lume.land/
+- https://github.com/lumeland/lume
+- https://github.com/kinsta/hello-world-lume
+- https://kinsta.com/docs/static-site-hosting/static-site-quick-start/lume-static-site-example
+- https://kinsta.com/docs/static-site-hosting/static-site-quick-start/cuttlebelle-static-site-example
+- https://github.com/kinsta/hello-world-cuttlebelle
+- https://github.com/cuttlebelle/cuttlebelle
+- https://bun.sh/guides/install/trusted: `"trustedDependencies": []`
+- https://vitejs.dev/guide/cli.html#vite-build: `--ssr [entry]`
+- https://vitejs.dev/guide/cli.html#vite-preview
+- https://qwik.dev/docs/deployments/#production-build: "Under the hood, the `build` script will execute, `build.server` and `build.client` scripts."
+- https://qwik.dev/docs/guides/mdx/#disabling-default-mdx-plugins-included
+- https://qwik.dev/docs/endpoints/ + https://qwik.dev/docs/middleware/#middleware-function + https://qwik.dev/docs/caching/
+- "Middleware is defined by exporting a function called `onRequest` (or `onGet`, `onPost`, `onPut`, `onPatch`, and `onDelete`) in the `layout.tsx` or `index.tsx` file inside of `src/routes` folder."
+- https://qwik.dev/docs/html-attributes/
+- https://qwik.dev/docs/env-variables/#server-side-variables + https://qwik.dev/docs/env-variables/#defining-server-side-variables: "They are not known at build-time and are not available in the browser, so they can be considered as **private**."
 
 ## [Qwik tutorial](https://qwik.dev/tutorial/welcome/overview/)
 
@@ -96,6 +119,7 @@ export async function getRepositories(
 - https://youtu.be/W0xjcx4mrkE?feature=shared
 - https://youtu.be/bwBJeUBZaQU?feature=shared
 - https://youtu.be/Ti2BoRVp-kY?feature=shared
+- https://youtu.be/vxhXd1mz1gs?feature=shared
 
 ### Notes
 
@@ -103,6 +127,11 @@ export async function getRepositories(
   - https://docs.astro.build/en/concepts/islands/
 - "This approach is called Resumability because the application essentially resumes in the browser where it left off in the server. There's no need to run any more initial JavaScript."
 - https://github.com/iamshaunjp/Qwik-Crash-Course-1st-Look
+- https://fonts.google.com/specimen/Geo
+- https://qwik.dev/docs/components/styles/#usestyles + https://qwik.dev/docs/components/styles/#scoped-css + https://qwik.dev/docs/components/styles/#css-modules:
+  - `useStyles$()`: "Component styles allow Qwik to lazy load the style information for the component only when needed."
+  - Scoped hook: `useStylesScoped$()`
+  - Qwik supports CSS Modules
 
 ## Commands
 
