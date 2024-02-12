@@ -44,6 +44,8 @@
 - "Middleware is defined by exporting a function called `onRequest` (or `onGet`, `onPost`, `onPut`, `onPatch`, and `onDelete`) in the `layout.tsx` or `index.tsx` file inside of `src/routes` folder."
 - https://qwik.dev/docs/html-attributes/
 - https://qwik.dev/docs/env-variables/#server-side-variables + https://qwik.dev/docs/env-variables/#defining-server-side-variables: "They are not known at build-time and are not available in the browser, so they can be considered as **private**."
+- https://css-hooks.com/docs/qwik/introduction
+- https://github.com/onwidget/awesome-qwik
 
 ## [Qwik tutorial](https://qwik.dev/tutorial/welcome/overview/)
 
@@ -120,6 +122,8 @@ export async function getRepositories(
 - https://youtu.be/bwBJeUBZaQU?feature=shared
 - https://youtu.be/Ti2BoRVp-kY?feature=shared
 - https://youtu.be/vxhXd1mz1gs?feature=shared
+- https://youtu.be/otSCeKr6Jlg?feature=shared
+- https://youtu.be/N624vxHocDc?feature=shared
 
 ### Notes
 
@@ -132,6 +136,7 @@ export async function getRepositories(
   - `useStyles$()`: "Component styles allow Qwik to lazy load the style information for the component only when needed."
   - Scoped hook: `useStylesScoped$()`
   - Qwik supports CSS Modules
+- "`useSignal()` is good for simple primitive data (strings, booleans, numbers, etc.) but if you wanted to use an object or array then I would use instead `useStore()`. (...) because when we use `useSignal()` this is only going to be reactive when we are using these simple values (strings, booleans, and numbers) (...)."
 
 ## Commands
 
