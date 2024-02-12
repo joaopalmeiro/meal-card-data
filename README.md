@@ -7,6 +7,7 @@ Places that accept or not the Edenred meal card.
 - [Edenred](https://edenred.pt/)
 - https://www.coverflex.com/en-pt
 - https://edenred.pt/rede-de-estabelecimentos/
+- https://www.edenred.com/sites/group/files/2022-04/edenred_logo.svg: `#F72717`
 
 ### Snippets
 
