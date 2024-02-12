@@ -51,15 +51,15 @@
 
 ### Done
 
-- https://qwik.dev/tutorial/welcome/overview/
-- https://qwik.dev/tutorial/introduction/component/
-- https://qwik.dev/tutorial/introduction/store/
-- https://qwik.dev/tutorial/introduction/listeners/
-- https://qwik.dev/tutorial/introduction/resource/
-- https://qwik.dev/tutorial/component/basic/
-- https://qwik.dev/tutorial/component/binding/
-- https://qwik.dev/tutorial/component/composition/
-- https://qwik.dev/tutorial/component/lite/
+1. https://qwik.dev/tutorial/welcome/overview/
+2. https://qwik.dev/tutorial/introduction/component/
+3. https://qwik.dev/tutorial/introduction/store/
+4. https://qwik.dev/tutorial/introduction/listeners/
+5. https://qwik.dev/tutorial/introduction/resource/
+6. https://qwik.dev/tutorial/component/basic/
+7. https://qwik.dev/tutorial/component/binding/
+8. https://qwik.dev/tutorial/component/composition/
+9. https://qwik.dev/tutorial/component/lite/
 
 ### Notes
 
@@ -118,12 +118,13 @@ export async function getRepositories(
 
 ### Done
 
-- https://youtu.be/W0xjcx4mrkE?feature=shared
-- https://youtu.be/bwBJeUBZaQU?feature=shared
-- https://youtu.be/Ti2BoRVp-kY?feature=shared
-- https://youtu.be/vxhXd1mz1gs?feature=shared
-- https://youtu.be/otSCeKr6Jlg?feature=shared
-- https://youtu.be/N624vxHocDc?feature=shared
+1. https://youtu.be/W0xjcx4mrkE?feature=shared
+2. https://youtu.be/bwBJeUBZaQU?feature=shared
+3. https://youtu.be/Ti2BoRVp-kY?feature=shared
+4. https://youtu.be/vxhXd1mz1gs?feature=shared
+5. https://youtu.be/otSCeKr6Jlg?feature=shared
+6. https://youtu.be/N624vxHocDc?feature=shared
+7. https://youtu.be/T8f4tDCxk3o?feature=shared
 
 ### Notes
 
@@ -137,6 +138,7 @@ export async function getRepositories(
   - Scoped hook: `useStylesScoped$()`
   - Qwik supports CSS Modules
 - "`useSignal()` is good for simple primitive data (strings, booleans, numbers, etc.) but if you wanted to use an object or array then I would use instead `useStore()`. (...) because when we use `useSignal()` this is only going to be reactive when we are using these simple values (strings, booleans, and numbers) (...)."
+- `<form preventdefault:submit onSubmit$={() => console.log(formState.name, formState.message)}>`
 
 ## Commands
 
