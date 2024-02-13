@@ -23,6 +23,7 @@
 - https://qwik.dev/docs/advanced/qwikloader/
 - https://www.coverflex.com/en-pt/meal
 - https://github.com/BuilderIO/qwik/tree/main/packages/eslint-plugin-qwik
+- https://github.com/adaliszk/node-toolbox/tree/release/configs/eslint-config-qwik
 - https://qwik.dev/docs/advanced/eslint/
 - https://github.com/aleclarson/vite-tsconfig-paths
 - https://vitejs.dev/guide/env-and-mode#modes
