@@ -125,6 +125,7 @@ export async function getRepositories(
 5. https://youtu.be/otSCeKr6Jlg?feature=shared
 6. https://youtu.be/N624vxHocDc?feature=shared
 7. https://youtu.be/T8f4tDCxk3o?feature=shared
+8. https://youtu.be/1QW6Sd6PFIc?feature=shared
 
 ### Notes
 
@@ -139,6 +140,8 @@ export async function getRepositories(
   - Qwik supports CSS Modules
 - "`useSignal()` is good for simple primitive data (strings, booleans, numbers, etc.) but if you wanted to use an object or array then I would use instead `useStore()`. (...) because when we use `useSignal()` this is only going to be reactive when we are using these simple values (strings, booleans, and numbers) (...)."
 - `<form preventdefault:submit onSubmit$={() => console.log(formState.name, formState.message)}>`
+- `<Slot />`
+- `<Slot name="content" />` + `<div q:slot="content">...</div>`
 
 ## Commands
 
