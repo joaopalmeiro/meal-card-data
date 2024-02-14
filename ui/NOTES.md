@@ -47,6 +47,14 @@
 - https://qwik.dev/docs/env-variables/#server-side-variables + https://qwik.dev/docs/env-variables/#defining-server-side-variables: "They are not known at build-time and are not available in the browser, so they can be considered as **private**."
 - https://css-hooks.com/docs/qwik/introduction
 - https://github.com/onwidget/awesome-qwik
+- https://shoelace.style/getting-started/installation#bundling
+- https://shoelace.style/components/select#importing
+- https://github.com/shoelace-style/webpack-example/blob/master/webpack.config.js
+- https://github.com/shoelace-style/shoelace/discussions/1240#discussioncomment-5303384
+- https://github.com/shoelace-style/rollup-example
+- https://github.com/sapphi-red/vite-plugin-static-copy
+- https://github.com/shoelace-style/shoelace/discussions/1641
+- https://github.com/vitejs/vite/tree/main/packages/create-vite/template-qwik-ts
 
 ## [Qwik tutorial](https://qwik.dev/tutorial/welcome/overview/)
 
