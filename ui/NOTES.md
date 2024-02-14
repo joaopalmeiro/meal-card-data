@@ -135,6 +135,12 @@ export async function getRepositories(
 6. https://youtu.be/N624vxHocDc?feature=shared
 7. https://youtu.be/T8f4tDCxk3o?feature=shared
 8. https://youtu.be/1QW6Sd6PFIc?feature=shared
+9. https://youtu.be/PVo2dXmx9Ug?feature=shared
+10.
+11.
+12.
+13.
+14.
 
 ### Notes
 
@@ -151,6 +157,7 @@ export async function getRepositories(
 - `<form preventdefault:submit onSubmit$={() => console.log(formState.name, formState.message)}>`
 - `<Slot />`
 - `<Slot name="content" />` + `<div q:slot="content">...</div>`
+- Props: `interface ModalProps { size: 'sm' | 'lg' }` + `export default component$((props: ModalProps) => {`
 
 ## Commands
 
