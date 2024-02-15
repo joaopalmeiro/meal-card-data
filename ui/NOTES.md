@@ -76,6 +76,7 @@
 - https://developer.mozilla.org/en-US/docs/Web/Manifest
 - https://qwik.dev/docs/advanced/containers/#container-attributes
 - https://github.com/mohlsen/check-engine?tab=readme-ov-file#usage
+- https://github.com/biomejs/biome/discussions/1016 + https://biomejs.dev/reference/configuration/#vcs
 
 ## [Qwik tutorial](https://qwik.dev/tutorial/welcome/overview/)
 
