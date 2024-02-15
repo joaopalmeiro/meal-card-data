@@ -63,6 +63,7 @@
 - https://shareon.js.org/
 - https://github.com/kytta/share2fedi
 - https://github.com/BuilderIO/qwik/blob/v1.4.5/packages/qwik/src/core/util/types.ts
+- https://www.loadership.com/
 
 ## [Qwik tutorial](https://qwik.dev/tutorial/welcome/overview/)
 
@@ -145,7 +146,7 @@ export async function getRepositories(
 8. https://youtu.be/1QW6Sd6PFIc?feature=shared
 9. https://youtu.be/PVo2dXmx9Ug?feature=shared
 10. https://youtu.be/Kv_1Y9DEa-8?feature=shared
-11.
+11. https://youtu.be/Asw1BfUxj0g?feature=shared
 12.
 13.
 14.
@@ -174,6 +175,9 @@ export async function getRepositories(
   - `console.debug('%cQWIK', STYLE, message)`
 - "A QRL can be serialized because it's just a string path essentially (...) a QRL which is just a string path pointing to this function so that when we use that function in the future it knows where to get it from (...)"
 - QRL example: https://github.com/iamshaunjp/Qwik-Crash-Course-1st-Look/blob/lesson-10/src/routes/about/index.tsx#L10 + https://github.com/iamshaunjp/Qwik-Crash-Course-1st-Look/blob/lesson-10/src/components/modal/modal.tsx#L8
+- https://www.npmjs.com/package/json-server
+- https://qwik.dev/docs/qwikcity-deprecated-features/ + https://qwik.dev/docs/route-loader/
+- `useEndpoint()`: "This `useEndpoint()` hook tells Qwik that we want to use an endpoint to fetch data on the server, so it's going to fire that endpoint up here, which will then fetch the data and return it to us. (...) this hook can be triggered on either the server or on the client in the browser. If we send a request in the browser to this website and land on this page initially, the component is first rendered on the server and the `useEndpoint()` hook is fired on the server. If we land on a different page initially (...) and then navigate on the front end to this page using some kind of link, then this `useEndpoint()` hook is then going to fire in the browser."
 
 ## Commands
 
