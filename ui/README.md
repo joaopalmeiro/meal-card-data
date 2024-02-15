@@ -26,6 +26,8 @@ npm run lint
 npm run format
 ```
 
+## Deployment
+
 ```bash
 npm run build
 ```

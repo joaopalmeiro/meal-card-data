@@ -1,5 +1,6 @@
 {
   "name": "mealcard",
+  "version": "0.0.0",
   "private": true,
   "description": "Places that accept or not the Edenred meal card.",
   "license": "MIT",
