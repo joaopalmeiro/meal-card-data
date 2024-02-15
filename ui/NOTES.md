@@ -55,6 +55,14 @@
 - https://github.com/sapphi-red/vite-plugin-static-copy
 - https://github.com/shoelace-style/shoelace/discussions/1641
 - https://github.com/vitejs/vite/tree/main/packages/create-vite/template-qwik-ts
+- https://github.com/mxstbr/sharingbuttons.io
+- https://github.com/SaraVieira/react-social-sharing/blob/master/src/consts.js
+- https://faq.whatsapp.com/425247423114725/?cms_platform=iphone: `https://wa.me/?text=urlencodedtext`
+- https://github.com/mastodon/mastodon/issues/442
+- https://github.com/kytta/shareon/blob/main/src/shareon.js
+- https://shareon.js.org/
+- https://github.com/kytta/share2fedi
+- https://github.com/BuilderIO/qwik/blob/v1.4.5/packages/qwik/src/core/util/types.ts
 
 ## [Qwik tutorial](https://qwik.dev/tutorial/welcome/overview/)
 
@@ -136,7 +144,7 @@ export async function getRepositories(
 7. https://youtu.be/T8f4tDCxk3o?feature=shared
 8. https://youtu.be/1QW6Sd6PFIc?feature=shared
 9. https://youtu.be/PVo2dXmx9Ug?feature=shared
-10.
+10. https://youtu.be/Kv_1Y9DEa-8?feature=shared
 11.
 12.
 13.
@@ -158,6 +166,14 @@ export async function getRepositories(
 - `<Slot />`
 - `<Slot name="content" />` + `<div q:slot="content">...</div>`
 - Props: `interface ModalProps { size: 'sm' | 'lg' }` + `export default component$((props: ModalProps) => {`
+- https://qwik.dev/api/qwik/#propfunction
+- https://qwik.dev/api/qwik/#qrl
+- https://github.com/BuilderIO/qwik/blob/v1.4.5/packages/qwik/src/core/util/log.ts#L6 + https://github.com/BuilderIO/qwik/blob/v1.4.5/packages/qwik/src/core/util/log.ts#L40 + https://developer.mozilla.org/en-US/docs/Web/API/console#examples:
+  - `const STYLE = 'background: #564CE0; color: white; padding: 2px 3px; border-radius: 2px; font-size: 0.8em;'`
+  - `console.warn('%cQWIK WARN', STYLE, message)`
+  - `console.debug('%cQWIK', STYLE, message)`
+- "A QRL can be serialized because it's just a string path essentially (...) a QRL which is just a string path pointing to this function so that when we use that function in the future it knows where to get it from (...)"
+- QRL example: https://github.com/iamshaunjp/Qwik-Crash-Course-1st-Look/blob/lesson-10/src/routes/about/index.tsx#L10 + https://github.com/iamshaunjp/Qwik-Crash-Course-1st-Look/blob/lesson-10/src/components/modal/modal.tsx#L8
 
 ## Commands
 
@@ -183,4 +199,26 @@ npm install @builder.io/qwik && npm install -D typescript vite
 
 ```bash
 rm -rf node_modules/ && npm install
+```
+
+## Snippets
+
+### https://github.com/BuilderIO/qwik/blob/v1.4.5/packages/qwik/src/core/util/log.ts#L40
+
+```ts
+const STYLE = qDev
+  ? `background: #564CE0; color: white; padding: 2px 3px; border-radius: 2px; font-size: 0.8em;`
+  : "";
+
+export const logWarn = (message?: any, ...optionalParams: any[]) => {
+  if (qDev) {
+    console.warn("%cQWIK WARN", STYLE, message, ...printParams(optionalParams));
+  }
+};
+
+export const logDebug = (message?: string, ...optionalParams: any[]) => {
+  if (qDev) {
+    console.debug("%cQWIK", STYLE, message, ...printParams(optionalParams));
+  }
+};
 ```
