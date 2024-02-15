@@ -84,6 +84,9 @@
 - https://github.com/biomejs/biome/discussions/1016 + https://biomejs.dev/reference/configuration/#vcs
 - https://eslint.org/docs/latest/use/configure/configuration-files-new#configuration-objects
 - https://github.com/will-stone/eslint-config/blob/v0.15.0/src/configs/typescript.ts
+- https://surge.sh/help/getting-started-with-surge
+- https://github.com/keithamus/sort-package-json/pull/309
+- https://github.com/keithamus/sort-package-json/blob/v2.7.0/index.js#L166
 
 ## [Qwik tutorial](https://qwik.dev/tutorial/welcome/overview/)
 
@@ -215,7 +218,7 @@ export async function getRepositories(
 ## Commands
 
 ```bash
-npm install -D @builder.io/qwik @builder.io/qwik-city typescript vite vite-tsconfig-paths @biomejs/biome sort-package-json npm-run-all2 check-engine
+npm install -D @builder.io/qwik @builder.io/qwik-city typescript vite vite-tsconfig-paths @biomejs/biome sort-package-json npm-run-all2 check-engine surge
 ```
 
 ```bash

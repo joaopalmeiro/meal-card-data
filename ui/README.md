@@ -31,3 +31,7 @@ npm run format
 ```bash
 npm run build
 ```
+
+```bash
+npm run deploy
+```
