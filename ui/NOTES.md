@@ -82,6 +82,8 @@
 - https://qwik.dev/docs/advanced/containers/#container-attributes
 - https://github.com/mohlsen/check-engine?tab=readme-ov-file#usage
 - https://github.com/biomejs/biome/discussions/1016 + https://biomejs.dev/reference/configuration/#vcs
+- https://eslint.org/docs/latest/use/configure/configuration-files-new#configuration-objects
+- https://github.com/will-stone/eslint-config/blob/v0.15.0/src/configs/typescript.ts
 
 ## [Qwik tutorial](https://qwik.dev/tutorial/welcome/overview/)
 
@@ -217,7 +219,15 @@ npm install -D @builder.io/qwik @builder.io/qwik-city typescript vite vite-tscon
 ```
 
 ```bash
+npx eslint --print-config src/routes/index.tsx
+```
+
+```bash
 npm install -D "@types/node@$(cat .nvmrc | cut -d . -f 1-2)"
+```
+
+```bash
+npm install -D eslint eslint-plugin-qwik @typescript-eslint/parser @typescript-eslint/utils
 ```
 
 ```bash
@@ -276,4 +286,43 @@ export const logDebug = (message?: string, ...optionalParams: any[]) => {
     console.debug("%cQWIK", STYLE, message, ...printParams(optionalParams));
   }
 };
+```
+
+### `eslint.config.js`
+
+```js
+import * as parserTypescript from "@typescript-eslint/parser";
+import qwik from "eslint-plugin-qwik";
+
+export default [
+  // https://eslint.org/docs/latest/use/configure/configuration-files-new#configuration-objects
+  // https://github.com/will-stone/eslint-config/blob/v0.15.0/src/configs/typescript.ts
+  // https://qwik.dev/docs/advanced/eslint/
+  // https://typescript-eslint.io/packages/parser/#project
+  {
+    files: ["src/**/*.{ts,tsx}"],
+    plugins: {
+      qwik,
+    },
+    languageOptions: {
+      parser: parserTypescript,
+      parserOptions: {
+        project: true,
+      },
+    },
+    rules: {
+      "qwik/valid-lexical-scope": "error",
+      "qwik/use-method-usage": "error",
+      "qwik/loader-location": "error",
+      "qwik/no-react-props": "error",
+      "qwik/prefer-classlist": "error",
+      "qwik/jsx-no-script-url": "error",
+      "qwik/jsx-key": "error",
+      "qwik/unused-server": "error",
+      "qwik/jsx-img": "error",
+      "qwik/jsx-a": "error",
+      "qwik/no-use-visible-task": "error",
+    },
+  },
+];
 ```
