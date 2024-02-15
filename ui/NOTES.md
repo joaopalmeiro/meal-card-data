@@ -148,7 +148,7 @@ export async function getRepositories(
 10. https://youtu.be/Kv_1Y9DEa-8?feature=shared
 11. https://youtu.be/Asw1BfUxj0g?feature=shared
 12. https://youtu.be/zm10kAKdF8I?feature=shared
-13.
+13. https://youtu.be/JfVAGU5Ceqw?feature=shared
 14.
 
 ### Notes
@@ -178,6 +178,7 @@ export async function getRepositories(
 - https://www.npmjs.com/package/json-server
 - https://qwik.dev/docs/qwikcity-deprecated-features/ + https://qwik.dev/docs/route-loader/
 - `useEndpoint()`: "This `useEndpoint()` hook tells Qwik that we want to use an endpoint to fetch data on the server, so it's going to fire that endpoint up here [(`onGet()`)], which will then fetch the data and return it to us. (...) this hook can be triggered on either the server or on the client in the browser. If we send a request in the browser to this website and land on this page initially, the component is first rendered on the server and the `useEndpoint()` hook is fired on the server. If we land on a different page initially (...) and then navigate on the front end to this page using some kind of link, then this `useEndpoint()` hook is then going to fire in the browser."
+- `export const onGet: RequestHandler<BlogData> = async ({ params, response }) => {` + `if (!res.ok) { throw response.redirect('/') }`
 
 ## Commands
 
