@@ -64,6 +64,7 @@
 - https://github.com/kytta/share2fedi
 - https://github.com/BuilderIO/qwik/blob/v1.4.5/packages/qwik/src/core/util/types.ts
 - https://www.loadership.com/
+- https://catalyst.tailwindui.com/docs
 
 ## [Qwik tutorial](https://qwik.dev/tutorial/welcome/overview/)
 
@@ -149,7 +150,7 @@ export async function getRepositories(
 11. https://youtu.be/Asw1BfUxj0g?feature=shared
 12. https://youtu.be/zm10kAKdF8I?feature=shared
 13. https://youtu.be/JfVAGU5Ceqw?feature=shared
-14.
+14. https://youtu.be/wXPeM4vIDYA?feature=shared
 
 ### Notes
 
