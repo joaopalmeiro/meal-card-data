@@ -1,6 +1,6 @@
 # mealcard
 
-Places that accept or not the Edenred meal card.
+Places that accept or not the [Edenred](https://edenred.pt/) meal card.
 
 ## Development
 
@@ -24,10 +24,6 @@ npm run lint
 
 ```bash
 npm run format
-```
-
-```bash
-npm run preview
 ```
 
 ```bash

@@ -1,7 +1,14 @@
 # Notes
 
 - https://qwik.dev/docs/deployments/static/
+- https://qwik.dev/docs/guides/static-site-generation/#static-site-generation-config
 - https://qwik.dev/docs/guides/static-site-generation/#dynamic-ssg-routes
+- https://qwik.dev/docs/faq/#do-i-need-a-server-to-deploy-qwik-apps
+- https://kinsta.com/docs/static-site-hosting/static-site-quick-start/qwik-static-site-example
+- https://github.com/kinsta/hello-world-qwik
+- https://github.com/BuilderIO/qwik/tree/main/starters/adapters/static
+- https://github.com/BuilderIO/qwik-tw-vercel-starter-kit
+- https://developers.cloudflare.com/pages/framework-guides/deploy-a-qwik-site/
 - https://qwikui.com/
 - https://github.com/qwikifiers/qwik-style-guide:
   - Use kebab-case for filenames.
@@ -27,8 +34,6 @@
 - https://qwik.dev/docs/advanced/eslint/
 - https://github.com/aleclarson/vite-tsconfig-paths
 - https://vitejs.dev/guide/env-and-mode#modes
-- https://kinsta.com/docs/static-site-hosting/static-site-quick-start/qwik-static-site-example
-- https://github.com/kinsta/hello-world-qwik
 - https://lume.land/
 - https://github.com/lumeland/lume
 - https://github.com/kinsta/hello-world-lume
@@ -213,6 +218,18 @@ npm install -D @builder.io/qwik @builder.io/qwik-city typescript vite vite-tscon
 
 ```bash
 npm install -D "@types/node@$(cat .nvmrc | cut -d . -f 1-2)"
+```
+
+```bash
+rm -rf dist/ server/ tmp/
+```
+
+```bash
+npx serve dist/
+```
+
+```bash
+npm create cloudflare@latest test -- --framework=qwik
 ```
 
 ```bash
