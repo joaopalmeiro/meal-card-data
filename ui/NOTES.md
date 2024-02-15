@@ -151,6 +151,7 @@ export async function getRepositories(
 12. https://youtu.be/zm10kAKdF8I?feature=shared
 13. https://youtu.be/JfVAGU5Ceqw?feature=shared
 14. https://youtu.be/wXPeM4vIDYA?feature=shared
+15. https://netninja.dev/courses/qwik-crash-course-first-look/lectures/45506064
 
 ### Notes
 
@@ -180,6 +181,17 @@ export async function getRepositories(
 - https://qwik.dev/docs/qwikcity-deprecated-features/ + https://qwik.dev/docs/route-loader/
 - `useEndpoint()`: "This `useEndpoint()` hook tells Qwik that we want to use an endpoint to fetch data on the server, so it's going to fire that endpoint up here [(`onGet()`)], which will then fetch the data and return it to us. (...) this hook can be triggered on either the server or on the client in the browser. If we send a request in the browser to this website and land on this page initially, the component is first rendered on the server and the `useEndpoint()` hook is fired on the server. If we land on a different page initially (...) and then navigate on the front end to this page using some kind of link, then this `useEndpoint()` hook is then going to fire in the browser."
 - `export const onGet: RequestHandler<BlogData> = async ({ params, response }) => {` + `if (!res.ok) { throw response.redirect('/') }`
+- https://qwik.dev/docs/deprecated-features/
+- `useClientEffect`:
+  - "runs on the client only, eagerly"
+  - "also after every change to tracked state"
+  - "use if you need to immediately run code in the browser"
+  - Similar to `useEffect` in React
+- `useTask`:
+  - "runs on the server"
+  - "then after every change to tracked state"
+  - "use if you want to run code pre-render on the server"
+  - "use if you want to run code in the browser after state changes"
 
 ## Commands
 
