@@ -65,6 +65,17 @@
 - https://github.com/BuilderIO/qwik/blob/v1.4.5/packages/qwik/src/core/util/types.ts
 - https://www.loadership.com/
 - https://catalyst.tailwindui.com/docs
+- https://github.com/BuilderIO/qwik/tree/main/packages/qwik-react
+- https://github.com/BuilderIO/qwik/tree/v1.4.5/packages/docs#development-builds:
+  - Client only: `npm run dev`
+  - Server-side Rendering (SSR) and Client: `npm run dev.ssr`
+- https://www.typescriptlang.org/tsconfig#lib
+- https://semver.npmjs.com/
+- https://antonybudianto.com/blog/review-astro-vs-qwik
+- https://github.com/BuilderIO/qwik/issues/2016
+- https://developer.mozilla.org/en-US/docs/Web/Manifest
+- https://qwik.dev/docs/advanced/containers/#container-attributes
+- https://github.com/mohlsen/check-engine?tab=readme-ov-file#usage
 
 ## [Qwik tutorial](https://qwik.dev/tutorial/welcome/overview/)
 
@@ -194,6 +205,14 @@ export async function getRepositories(
   - "use if you want to run code in the browser after state changes"
 
 ## Commands
+
+```bash
+npm install -D @builder.io/qwik @builder.io/qwik-city typescript vite vite-tsconfig-paths @biomejs/biome sort-package-json npm-run-all2 check-engine
+```
+
+```bash
+npm install -D "@types/node@$(cat .nvmrc | cut -d . -f 1-2)"
+```
 
 ```bash
 npm create qwik@latest
