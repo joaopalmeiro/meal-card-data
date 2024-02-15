@@ -1,5 +1,7 @@
 # mealcard
 
+> https://mealcard.surge.sh/
+
 Places that accept or not the [Edenred](https://edenred.pt/) meal card.
 
 ## Development
@@ -34,4 +36,8 @@ npm run build
 
 ```bash
 npm run deploy
+```
+
+```bash
+npx surge list
 ```

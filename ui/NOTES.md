@@ -242,6 +242,10 @@ npx serve dist/
 ```
 
 ```bash
+npx surge --help
+```
+
+```bash
 npm create cloudflare@latest test -- --framework=qwik
 ```
 
