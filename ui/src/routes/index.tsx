@@ -15,6 +15,8 @@ interface Datum {
 // https://qwik.dev/docs/guides/qwik-nutshell/#fetching--loading-data
 // https://qwik.dev/docs/route-loader/
 // https://qwik.dev/docs/guides/qwik-nutshell/#rendering-a-list-of-items
+// https://stackoverflow.com/questions/52660451/javascript-natural-sort-objects
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare
 export const useMealCardData = routeLoader$(async () => {
   const response = await fetch(
     "https://raw.githubusercontent.com/joaopalmeiro/meal-card-data/main/data.json",
@@ -29,7 +31,7 @@ export default component$(() => {
 
   return (
     <ul>
-      {mealCardData.value.map((datum) => {
+      {mealCardData.value.sort((a, b) => a.place.localeCompare(b.place, "pt-PT")).map((datum) => {
         const lastUpdate = new Date(datum.last_update);
 
         return (
