@@ -36,7 +36,7 @@ export default component$<CardProps>((props) => {
       </ul>
 
       <a href="https://wa.me/?text=test" target="_blank" rel="noreferrer">
-        Enviar
+        Send
       </a>
     </div>
   );

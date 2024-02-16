@@ -1,5 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import { routeLoader$ } from "@builder.io/qwik-city";
+import type { DocumentHead } from "@builder.io/qwik-city";
 
 import Card from "../components/card/card";
 
@@ -31,15 +32,27 @@ export default component$(() => {
 
   return (
     <ul>
-      {mealCardData.value.sort((a, b) => a.place.localeCompare(b.place, "pt-PT")).map((datum) => {
-        const lastUpdate = new Date(datum.last_update);
+      {mealCardData.value
+        .sort((a, b) => a.place.localeCompare(b.place, "pt-PT"))
+        .map((datum) => {
+          const lastUpdate = new Date(datum.last_update);
 
-        return (
-          <li key={datum.place}>
-            <Card title={datum.place} lastUpdate={lastUpdate} />
-          </li>
-        );
-      })}
+          return (
+            <li key={datum.place}>
+              <Card title={datum.place} lastUpdate={lastUpdate} />
+            </li>
+          );
+        })}
     </ul>
   );
 });
+
+export const head: DocumentHead = {
+  title: "mealcard",
+  meta: [
+    {
+      name: "description",
+      content: "Places that accept or not the Edenred meal card.",
+    },
+  ],
+};
