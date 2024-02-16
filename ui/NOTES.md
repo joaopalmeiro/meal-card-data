@@ -87,6 +87,7 @@
 - https://surge.sh/help/getting-started-with-surge
 - https://github.com/keithamus/sort-package-json/pull/309
 - https://github.com/keithamus/sort-package-json/blob/v2.7.0/index.js#L166
+- https://tailwindcss.com/blog/tailwindcss-v3-4#style-children-with-the-variant
 
 ## [Qwik tutorial](https://qwik.dev/tutorial/welcome/overview/)
 
