@@ -1,4 +1,5 @@
 import { component$, useComputed$ } from "@builder.io/qwik";
+import { Check16 } from "qwik-heroicons";
 
 interface CardProps {
   title: string;
@@ -32,7 +33,9 @@ export default component$<CardProps>((props) => {
       <time dateTime={lastUpdateDt.value}>{lastUpdateDisplay.value}</time>
 
       <ul>
-        <li>Edenred</li>
+        <li>
+          <Check16 /> Edenred
+        </li>
       </ul>
 
       <a href="https://wa.me/?text=test" target="_blank" rel="noreferrer">

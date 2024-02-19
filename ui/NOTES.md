@@ -219,7 +219,7 @@ export async function getRepositories(
 ## Commands
 
 ```bash
-npm install -D @builder.io/qwik @builder.io/qwik-city typescript vite vite-tsconfig-paths @biomejs/biome sort-package-json npm-run-all2 check-engine surge
+npm install -D @builder.io/qwik @builder.io/qwik-city typescript vite vite-tsconfig-paths @biomejs/biome sort-package-json npm-run-all2 check-engine surge qwik-heroicons
 ```
 
 ```bash
