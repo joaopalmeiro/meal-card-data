@@ -3,7 +3,7 @@ import { QwikCityProvider, RouterOutlet, ServiceWorkerRegister } from "@builder.
 
 import { RouterHead } from "./components/router-head/router-head";
 
-import "resetss/josh-comeau-reset.css";
+import "resetss/preflight-tailwind.css";
 
 export default component$(() => {
   return (

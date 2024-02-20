@@ -88,6 +88,8 @@
 - https://github.com/keithamus/sort-package-json/pull/309
 - https://github.com/keithamus/sort-package-json/blob/v2.7.0/index.js#L166
 - https://tailwindcss.com/blog/tailwindcss-v3-4#style-children-with-the-variant
+- https://tailwindcss.com/docs/preflight#accessibility-considerations: `<ul role="list">`
+- https://developer.mozilla.org/en-US/docs/Web/Manifest#deploying_a_manifest: `<link rel="manifest" href="manifest.json" />`
 
 ## [Qwik tutorial](https://qwik.dev/tutorial/welcome/overview/)
 

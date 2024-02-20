@@ -34,6 +34,12 @@ npm run format
 npm run build
 ```
 
+or
+
+```bash
+npm run build.server
+```
+
 ```bash
 npm run deploy
 ```
