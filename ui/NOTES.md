@@ -90,6 +90,10 @@
 - https://tailwindcss.com/blog/tailwindcss-v3-4#style-children-with-the-variant
 - https://tailwindcss.com/docs/preflight#accessibility-considerations: `<ul role="list">`
 - https://developer.mozilla.org/en-US/docs/Web/Manifest#deploying_a_manifest: `<link rel="manifest" href="manifest.json" />`
+- https://web.dev/articles/add-manifest#test-manifest: _Chrome DevTools_ > _Application_ > _Manifest_
+- https://developer.mozilla.org/en-US/docs/Web/Manifest/icons
+- https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/How_to/Define_app_icons
+- https://www.pwabuilder.com/
 
 ## [Qwik tutorial](https://qwik.dev/tutorial/welcome/overview/)
 
