@@ -94,6 +94,10 @@
 - https://developer.mozilla.org/en-US/docs/Web/Manifest/icons
 - https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/How_to/Define_app_icons
 - https://www.pwabuilder.com/
+- https://tailwindcss.com/docs/display#inline-flex: "Use `inline-flex` to create an inline flex container that flows with text."
+- [[🐞] useStyles$/useStylesScoped$ duplicates CSS in bundle](https://github.com/BuilderIO/qwik/issues/5855) issue
+- https://vitejs.dev/guide/features#client-types
+- https://www.totaltypescript.com/where-to-put-your-types-in-application-code
 
 ## [Qwik tutorial](https://qwik.dev/tutorial/welcome/overview/)
 

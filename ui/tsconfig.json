@@ -16,6 +16,8 @@
     "isolatedModules": true,
     "outDir": "tmp",
     "noEmit": true,
+    // Required to import CSS files (https://vitejs.dev/guide/features#client-types):
+    "types": ["vite/client"],
   },
   "include": ["src", "vite.config.ts"],
 }

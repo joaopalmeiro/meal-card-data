@@ -3,6 +3,7 @@ import { routeLoader$ } from "@builder.io/qwik-city";
 import type { DocumentHead } from "@builder.io/qwik-city";
 
 import Card from "../components/card/card";
+import type { Tags } from "../shared.types";
 
 interface Datum {
   place: string;
@@ -36,10 +37,11 @@ export default component$(() => {
         .sort((a, b) => a.place.localeCompare(b.place, "pt-PT"))
         .map((datum) => {
           const lastUpdate = new Date(datum.last_update);
+          const tags: Tags = [{ name: "Edenred", accepts: datum.accepts_edenred }];
 
           return (
             <li key={datum.place}>
-              <Card title={datum.place} lastUpdate={lastUpdate} />
+              <Card title={datum.place} lastUpdate={lastUpdate} tags={tags} />
             </li>
           );
         })}
