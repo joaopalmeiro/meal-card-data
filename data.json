@@ -100,5 +100,11 @@
     "website": "https://www.facebook.com/RestauranteMaragato",
     "accepts_edenred": false,
     "last_update": "2024-01-07"
+  },
+  {
+    "place": "Gardens Lounge",
+    "website": "https://www.instagram.com/gardens__lounge/",
+    "accepts_edenred": true,
+    "last_update": "2024-01-06"
   }
 ]
