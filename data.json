@@ -70,5 +70,11 @@
     "website": "https://www.normal.pt/",
     "accepts_edenred": false,
     "last_update": "2023-12-22"
+  },
+  {
+    "place": "Celeiro - Av. da República",
+    "website": "https://www.celeiro.pt/lojas/celeiro-av-da-republica",
+    "accepts_edenred": true,
+    "last_update": "2023-12-27"
   }
 ]
