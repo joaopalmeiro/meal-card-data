@@ -94,5 +94,11 @@
     "website": "https://www.instagram.com/basuku.tartas/",
     "accepts_edenred": true,
     "last_update": "2023-12-31"
+  },
+  {
+    "place": "Restaurante Maragato",
+    "website": "https://www.facebook.com/RestauranteMaragato",
+    "accepts_edenred": false,
+    "last_update": "2024-01-07"
   }
 ]
