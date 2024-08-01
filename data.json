@@ -112,5 +112,11 @@
     "website": "https://www.thewallburger.pt/",
     "accepts_edenred": true,
     "last_update": "2024-02-03"
+  },
+  {
+    "place": "McDonald's - Rossio",
+    "website": "https://www.mcdonalds.pt/restaurantes/rossio",
+    "accepts_edenred": false,
+    "last_update": "2024-02-03"
   }
 ]
