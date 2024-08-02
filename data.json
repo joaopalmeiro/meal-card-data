@@ -130,5 +130,11 @@
     "website": "https://mygleba.com/pt",
     "accepts_edenred": false,
     "last_update": "2024-02-23"
+  },
+  {
+    "place": "Pausa & Crescente",
+    "website": "https://pausadiruvida.com/",
+    "accepts_edenred": true,
+    "last_update": "2024-02-24"
   }
 ]
